@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  m3ufilter:
-    image: m3ufilter
-    build:
-      context: .
-      dockerfile: ./Dockerfile
